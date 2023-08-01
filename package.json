@@ -1,0 +1,28 @@
+{
+  "name": "electron-game",
+  "version": "0.0.1",
+  "description": "Testing if electron is a good platform for html5 games",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toth3max/electron-game.git"
+  },
+  "keywords": [
+    "electron",
+    "html5",
+    "game"
+  ],
+  "author": "Max Nilsson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/toth3max/electron-game/issues"
+  },
+  "homepage": "https://github.com/toth3max/electron-game#readme",
+  "devDependencies": {
+    "electron": "^25.3.2"
+  }
+}
