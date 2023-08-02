@@ -26,3 +26,29 @@ Some things I've found while researching this topic.
 - [Game Dev Tycoon Credits](https://www.greenheartgames.com/credits/game-dev-tycoon/) - Famously using [node-webkit](https://github.com/nwjs/nw.js) for their game. I guess [CrossCode](http://www.cross-code.com/en/home) should be mentioned too.
 
 - [steamworks.js](https://github.com/ceifa/steamworks.js)
+
+## Random notes
+
+### Gamepads
+
+Xbox Series controller print out from usb-device-added 
+
+```
+usb-device-added FIRED WITH {
+  deviceClass: 255,
+  deviceId: 'f2dbc8e5-f737-4c4d-a389-240e57891d49',
+  deviceProtocol: 208,
+  deviceSubclass: 71,
+  deviceVersionMajor: 5,
+  deviceVersionMinor: 0,
+  deviceVersionSubminor: 9,
+  manufacturerName: 'Microsoft',
+  productId: 2834,
+  productName: 'Controller',
+  serialNumber: '3039564C32303335303535303438',
+  usbVersionMajor: 2,
+  usbVersionMinor: 0,
+  usbVersionSubminor: 0,
+  vendorId: 1118
+}
+```
